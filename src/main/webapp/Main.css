@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* YOUTUBE VIDEO */
+#cover {
+  background-image: url("images/cover_pattern.png");
+  background-color: rgba(0,0,0,.3);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+}
+
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.btn.btn--white {
+  color: #FFF;
+  border-color: #FFF;
+}
+.btn.btn--white:hover {
+  color: #333;
+  border-color: #FFF;
+}
+
+.btn {
+  width: 130px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s;
+}
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.footer .btn-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer .btn-group .btn {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.footer .btn-group .btn:last-child{
+ margin-right: 0; 
+}
+
+.footer .menu a {
+	color:white;
+	padding: 20px;	
+}
+.footer .menu a.green {
+	color:#669900;
+}
+
+
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.inner {
+  width: 100%;
+}
+
+
+.header {
+  background-color:#f6f5f0;
+  width:100%;
+  height:150px;
+  vertical-align: middle; 
+  text-align:center;
+  position:fixed;
+  z-index:9999;
+  border-bottom: 1px solid #dcdcdc;
+}
+.header_top {
+  text-align:right;
+}
+.logo {
+  height: 100px;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  /* display: none; */
+}
+
+.right {
+  right:0;
+  top:200px;
+  position:fixed;
+  z-index:500;
+}
+
+.upbtn {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+/*FOTTER*/
+.footer {
+  font-size:3px;
+  color:white;
+  background-color: #272727;
+  border-top: 1px solid #333;
+  width:100%;
+  position:absolute;
+   bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  text-align:center;
+}
+.footer>a {
+	color:white;
+}
+
+
+
+/*AWARDS*/
+.awards {
+  background-color: #272727;
+  position: relative;
+  bottom:0;
+  width:100%;
+}
+.awards .inner {
+  padding: 50px 0;
+  vertical-align: baseline;
+}
+.awards .swiper-container {
+  width: 50%;
+  height: 40px;
+}
+.awards .swiper-prev, 
+.awards .swiper-next {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  outline: none;
+  color: #fff;
+  opacity: .3;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.awards .swiper-prev:hover, 
+.awards .swiper-next:hover {
+  background-color: #fff;
+  color: #333;
+}
